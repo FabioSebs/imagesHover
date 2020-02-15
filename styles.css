@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px){
+.image1,.image2, .image3, .image4{
+    width: auto;
+    height: auto;
+}
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    flex: auto;
+    align-items: center;
+}
+.container>.image1:hover, .image2:hover, .image3:hover, .image4:hover {
+    opacity: .5;
+    transition: .5s ease;
+}
+
+.container>.image1, .image2, .image3, .image4 {
+    padding-top: 50px; 
+}
+
+.middle1,.middle2,.middle3,.middle4 {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    opacity: 1;
+}
+
+div.text1, div.text2, div.text3 , div.text4{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+}
